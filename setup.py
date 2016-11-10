@@ -9,14 +9,14 @@ patch_level = int(time.time())
 ver = "0.1." + str(patch_level)[4:]
 
 setup(
-  name = 'slackbot_wems',
+  name = 'slackbot_ts',
   packages = find_packages(),
   version = ver,
-  description = 'Python Code for Tech Em Studios WEMS Class',
+  description = 'Python Code for Tech Em Studios Classes',
   author = 'Tech Em Studios',
   author_email = 'wray@techemstudios.com',
-  url = 'https://github.com/wray/wems',
-  download_url = 'https://github.com/wray/wems/tarball/'+ver,
+  url = 'https://github.com/wray/',
+  download_url = 'https://github.com/wray//tarball/'+ver,
   keywords = ['slackbot', 'RPi', 'AWS'],
   classifiers = [],
 )
